@@ -62,7 +62,18 @@ foreach($content -> iPhone7 -> firmwares as $file)
   $str .= " {$file -> version} ". ($file -> signing ? '✅' : '❌') . " {$file -> stopped}\n\n";
 }
 // send message to user/channel
-$bot -> sendMessage($str, 'HTML');
+switch($bot -> command)
+{
+  case '/version':
+    $bot -> sendMessage($str, 'HTML');
+  break;
+  case '/test':
+    $bot -> sendMessage("response 2");
+  break;
+  
+}
+
+//$bot -> sendMessage($str, 'HTML');
 // write new hash
 file_put_contents('json_hash', $new_hash)
 ?>
