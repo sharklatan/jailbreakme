@@ -41,7 +41,7 @@ if($old_hash === $new_hash)
 
 
 // make response body
-$content = json_decode($content, true);
+$content = json_decode($content);
 $str = "<b>Updates</b>\n\n";
 $str .= "";
 foreach($content -> iPhone7 -> firmwares as $file)
