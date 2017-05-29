@@ -73,7 +73,7 @@ switch($bot -> command)
   
 }
 
-//$bot -> sendMessage($str, 'HTML');
+$bot -> sendMessage($str, 'HTML');
 // write new hash
 file_put_contents('json_hash', $new_hash)
 ?>
