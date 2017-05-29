@@ -34,7 +34,7 @@ require('bot.php');
 
 $bot = new bot('373936379:AAGbYbnKHWzVLLoTOtBdkphB_a6GeROHHjE');
 $bot -> uploadfile = true;
-$bot -> chatid = 15310317;
+$bot -> chatid = @JonaiPhoneNews;
 
 
 // load json content
@@ -54,7 +54,7 @@ if($old_hash === $new_hash)
 
 // make response body
 $content = json_decode($content);
-$str = "<b>Updates</b>\n\n";
+$str = "<b>iOS Signing</b>\n\n";
 $str .= "";
 foreach($content -> iPhone7 -> firmwares as $file)
 {
