@@ -64,10 +64,10 @@ foreach($content -> iPhone7 -> firmwares as $file)
 // send message to user/channel
 switch($bot -> command)
 {
-  case '/version':
+  case 'version':
     $bot -> sendMessage($str, 'HTML');
   break;
-  case '/test':
+  case 'test':
     $bot -> sendMessage("response 2");
   break;
   
