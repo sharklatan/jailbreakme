@@ -1,1 +1,25 @@
-
+{
+	"key 1":{
+		"board":"n56ap",
+		"model":"iPhone7,1",
+		"cpid":"28672",
+		"bdid":"4",
+		"platform":"t7000",
+		"firmwares":[
+			{
+				"build":"14F89",
+				"version":"10.3.2",
+				"signing":true,
+				"started":"2017-05-03",
+				"stopped":null
+			},
+			{
+				"build":"14E304",
+				"version":"10.3.1",
+				"signing":true,
+				"started":"2017-04-01",
+				"stopped":null
+			}
+		]
+	}
+}
