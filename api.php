@@ -122,7 +122,7 @@ $json = file_get_contents('file.txt');
 //$json = '{"foo-bar": 12345}';
 
 $obj = json_decode($json);
-print $obj->{'iPhone7,1'}; // 12345
+print $obj->{'model'}; // 12345
 
 ?>
 
