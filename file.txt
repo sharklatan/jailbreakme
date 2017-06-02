@@ -1,5 +1,5 @@
 {
-	"key 1":{
+	"iPhone7,1":{
 		"board":"n56ap",
 		"model":"iPhone7,1",
 		"cpid":"28672",
