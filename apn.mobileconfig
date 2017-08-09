@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadContent</key>
+				<array>
+					<dict>
+						<key>DefaultsData</key>
+						<dict>
+							<key>apns</key>
+							<array>
+								<dict>
+									<key>apn</key>
+									<string>internet.weex.mx</string>
+									<key>password</key>
+									<string/>
+									<key>type-mask</key>
+									<integer>51</integer>
+									<key>username</key>
+									<string/>
+								</dict>
+								<dict>
+									<key>apn</key>
+									<string>mms.weex.mx</string>
+									<key>password</key>
+									<string/>
+									<key>type-mask</key>
+									<integer>4</integer>
+									<key>username</key>
+									<string/>
+								</dict>
+							</array>
+						</dict>
+						<key>DefaultsDomainName</key>
+						<string>com.apple.managedCarrier</string>
+					</dict>
+				</array>
+				<key>PayloadDescription</key>
+				<string>Provides customization of carrier Access Point Name.</string>
+				<key>PayloadDisplayName</key>
+				<string>Advanced Settings</string>
+				<key>PayloadIdentifier</key>
+				<string>be.web.pro.apn</string>
+				<key>PayloadOrganization</key>
+				<string>WEEX</string>
+				<key>PayloadType</key>
+				<string>com.apple.apn.managed</string>
+				<key>PayloadUUID</key>
+				<string>503A5F11-C31A-47B2-937C-1562161951FB</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>WEEX webpro APN</string>
+		<key>PayloadDisplayName</key>
+		<string>WEEX APN settings</string>
+		<key>PayloadIdentifier</key>
+		<string>internet.weex.mx</string>
+		<key>PayloadOrganization</key>
+		<string>WEEX</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>47D8D14E-1241-4835-ACEA-9628A9A153E7</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
