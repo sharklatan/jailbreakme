@@ -1,1 +1,101 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>This is an Apple Confidential profile - Do not distribute.</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadContent</key>
+				<array>
+					<dict>
+						<key>DefaultsDomainName</key>
+						<string>.GlobalPreferences</string>
+						<key>DefaultsData</key>
+						<dict>
+							<key>SeedGroup</key>
+							<string>PublicBeta</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>DefaultsDomainName</key>
+						<string>com.apple.seeding</string>
+						<key>DefaultsData</key>
+						<dict>
+							<key>SeedProgram</key>
+							<string>DeveloperSeed</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>DefaultsDomainName</key>
+						<string>com.apple.appleseed.FeedbackAssistant</string>
+						<key>DefaultsData</key>
+						<dict>
+							<key>SBIconVisibility</key>
+							<true/>
+						</dict>
+					</dict>
+					<dict>
+						<key>DefaultsDomainName</key>
+						<string>com.apple.MobileAsset</string>
+						<key>DefaultsData</key>
+						<dict>
+							<key>MobileAssetSUAllowOSVersionChange</key>
+							<false/>
+							<key>MobileAssetSUAllowSameVersionFullReplacement</key>
+							<false/>
+							<key>MobileAssetServerURL-com.apple.MobileAsset.SoftwareUpdate</key>
+							<string>http://mesu.apple.com/assets/tvOSDeveloperSeed</string>
+							<key>MobileAssetServerURL-com.apple.MobileAsset.MobileSoftwareUpdate.UpdateBrain</key>
+							<string>http://mesu.apple.com/assets/tvOSDeveloperSeed</string>
+						</dict>
+					</dict>
+				</array>
+				<key>PayloadDescription</key>
+				<string>Configures tvOS Software Update for tvOS beta</string>
+				<key>PayloadDisplayName</key>
+				<string>tvOS Beta Software Profile</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.tvos.developersoftware</string>
+				<key>PayloadOrganization</key>
+				<string>Apple Inc.</string>
+				<key>PayloadType</key>
+				<string>com.apple.defaults.managed</string>
+				<key>PayloadUUID</key>
+				<string>a18905e6-1302-11e6-a148-3e1d05defe78</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Configures tvOS Software Update for tvOS beta</string>
+		<key>PayloadDisplayName</key>
+		<string>tvOS 10 Beta Software Profile</string>
+		<key>PayloadIdentifier</key>
+		<string>com.apple.tvos.developersoftware</string>
+		<key>PayloadOrganization</key>
+		<string>Apple Inc.</string>
+		<key>PayloadRebootSuggested</key>
+		<true/>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>8a18907bc-1302-11e6-a148-3e1d05defe78</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>Installing this tvOS beta Profile will allow you to install the tvOS Developer Seed on your Apple TV to help Apple improve tvOS and related products and services. This profile is provided in connection with your participation in an Apple Confidential pre-release seed. Your use of this profile, and any software delivered to you as part of this pre-release seed, is subject to and licensed only under the terms and conditions of the Apple Developer Program License Agreement ("Apple Developer PLA"), including any applicable consent to collect diagnostic data set forth therein. If you have not agreed to the Apple Developer PLA, you are not permitted to use this profile.</string>
+			<key>en</key>
+			<string>Installing this tvOS beta Profile will allow you to install the tvOS Developer Seed on your Apple TV to help Apple improve tvOS and related products and services. This profile is provided in connection with your participation in an Apple Confidential pre-release seed. Your use of this profile, and any software delivered to you as part of this pre-release seed, is subject to and licensed only under the terms and conditions of the Apple Developer Program License Agreement ("Apple Developer PLA"), including any applicable consent to collect diagnostic data set forth therein. If you have not agreed to the Apple Developer PLA, you are not permitted to use this profile.</string>
+		</dict>
+		<key>RemovalDate</key>
+		<date>2018-01-31T07:15:00Z</date>
+	</dict>
+</plist>
+ 	s00
