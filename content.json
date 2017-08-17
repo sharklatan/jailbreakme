@@ -1,15 +1,16 @@
 {
 	"iPhone7":{
+		"board":"n56ap",
 		"model":"iPhone7,1",
 		"cpid":"28672",
 		"bdid":"4",
 		"platform":"t7000",
 		"firmwares":[
 			{
-				"build":"14F89",
-				"version":"10.3.2",
+				"build":"14G60",
+				"version":"10.3.3",
 				"signing":true,
-				"started":"2017-05-03",
+				"started":"2017-07-15",
 				"stopped":null
 			}
 		]
