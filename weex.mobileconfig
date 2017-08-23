@@ -2,111 +2,55 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>PayloadContent</key>
-			<array>
-				<dict>
-					<key>DefaultsData</key>
-					<dict>
-						<key>apns</key>
-						<array>
-							<dict>
-                <key>apn</key>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Archivo de configuracion APN Weex</string>
+	</dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                       <key>AttachAPN</key>
+                       <dict>
+                          <key>Name</key>
+                          <string>internet.weex.mx</string>
+                        </dict>
+                        <key>APNs</key>
+                        <array>
+                            <dict>
+                                <key>Name</key>
+                                <string>internet.weex.mx</string>
+                            </dict>
+                        </array>
+                <key>PayloadDescription</key>
+                <string>Provides customization of carrier Access Point Name.</string>
+                <key>PayloadDisplayName</key>
+                <string>Advanced Settings</string>
+                <key>PayloadIdentifier</key>
                 <string>internet.weex.mx</string>
-                <key>username</key>
-                <string></string>
-                <key>password</key>
-                <string></string>
-								
-								<key>type-mask</key>
-								<integer>-8</integer>
-
-							</dict>
-<dict>
-                <key>apn</key>
-                <string>internet.weex.mx</string>
-                <key>username</key>
-                <string></string>
-                <key>password</key>
-                <string></string>
-								
-								<key>type-mask</key>
-								<integer>48</integer>
-
-							</dict>
-<dict>
-                <key>apn</key>
-                <string>internet.weex.mx</string>
-                <key>username</key>
-                <string></string>
-                <key>password</key>
-                <string></string>
-								
-								<key>type-mask</key>
-								<integer>49</integer>
-
-							</dict>
-<dict>
-                <key>apn</key>
-                <string>internet.weex.mx</string>
-                <key>username</key>
-                <string></string>
-                <key>password</key>
-                <string></string>
-								
-								<key>type-mask</key>
-								<integer>6</integer>
-
-							</dict>
-<dict>
-                <key>apn</key>
-                <string>internet.weex.mx</string>
-                <key>username</key>
-                <string></string>
-                <key>password</key>
-                <string></string>
-								
-								<key>type-mask</key>
-								<integer>7</integer>
-
-							</dict>
-						</array>
-					</dict>
-					<key>DefaultsDomainName</key>
-					<string>com.apple.managedCarrier</string>
-				</dict>
-			</array>
-			<key>PayloadDescription</key>
-			<string>Provides customization of carrier Access Point Name.</string>
-			<key>PayloadDisplayName</key>
-			<string>Advanced Settings</string>
-			<key>PayloadIdentifier</key>
-			<string>internet.weex.mx</string>
-			<key>PayloadOrganization</key>
-			<string>WEEX</string>
-			<key>PayloadType</key>
-			<string>com.apple.cellular</string>
-			<key>PayloadUUID</key>
-			<string>6B08253E-D5BB-4FC4-A5CD-825FB965B5AA</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>Archivo de configuracion APN Weex</string>
-	<key>PayloadDisplayName</key>
-	<string>Weex Mexico</string>
-	<key>PayloadIdentifier</key>
-	<string>internet.weex.mx</string>
-	<key>PayloadOrganization</key>
-	<string>WEEX</string>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>A560EB0FF-BE89-46C7-8DC9-6CA77E1A4453</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
+                <key>PayloadOrganization</key>
+                <string>WEEX</string>
+                <key>PayloadType</key>
+                <string>com.apple.cellular</string>
+                <key>PayloadUUID</key>
+                <string>6B08253E-D5BB-4FC4-A5CD-825FB965B5AA</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Archivo de configuracion APN Weex</string>
+        <key>PayloadDisplayName</key>
+        <string>Weex Mexico</string>
+        <key>PayloadIdentifier</key>
+        <string>internet.weex.mx</string>
+        <key>PayloadOrganization</key>
+        <string>WEEX</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>560EB0FF-BE89-46C7-8DC9-6CA77E1A4453</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
 </dict>
 </plist>
