@@ -17,70 +17,60 @@
                 <string>internet.weex.mx</string>
                 <key>username</key>
                 <string></string>
-                <key>type-mask</key>
-                <string>1</string>
                 <key>password</key>
                 <string></string>
+								
+								<key>type-mask</key>
+								<integer>-8</integer>
+
 							</dict>
 <dict>
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
                 <string></string>
-                <key>type-mask</key>
-                <string>2</string>
                 <key>password</key>
                 <string></string>
+								
+								<key>type-mask</key>
+								<integer>48</integer>
+
 							</dict>
 <dict>
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
                 <string></string>
-                <key>type-mask</key>
-                <string>6</string>
                 <key>password</key>
                 <string></string>
+								
+								<key>type-mask</key>
+								<integer>49</integer>
+
 							</dict>
 <dict>
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
                 <string></string>
-                <key>type-mask</key>
-                <string>7</string>
                 <key>password</key>
                 <string></string>
+								
+								<key>type-mask</key>
+								<integer>6</integer>
+
 							</dict>
 <dict>
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
                 <string></string>
-                <key>type-mask</key>
-                <string>-8</string>
                 <key>password</key>
                 <string></string>
-							</dict>
-<dict>
-                <key>apn</key>
-                <string>internet.weex.mx</string>
-                <key>username</key>
-                <string></string>
-                <key>type-mask</key>
-                <string>48</string>
-                <key>password</key>
-                <string></string>
-							</dict>
-<dict>
-                <key>apn</key>
-                <string>internet.weex.mx</string>
-                <key>username</key>
-                <string></string>
-                <key>type-mask</key>
-                <string>49</string>
-                <key>password</key>
-                <string></string>
+								
+								<key>type-mask</key>
+								<integer>7</integer>
+
 							</dict>
 						</array>
 					<key>PayloadDescription</key>
