@@ -26,6 +26,42 @@
 								<integer>-8</integer>
 
 							</dict>
+<dict>
+                <key>apn</key>
+                <string>internet.weex.mx</string>
+                <key>username</key>
+                <string>weex</string>
+                <key>password</key>
+                <string></string>
+								
+								<key>type-mask</key>
+								<integer>48</integer>
+
+							</dict>
+<dict>
+                <key>apn</key>
+                <string>internet.weex.mx</string>
+                <key>username</key>
+                <string>weex</string>
+                <key>password</key>
+                <string></string>
+								
+								<key>type-mask</key>
+								<integer>6</integer>
+
+							</dict>
+<dict>
+                <key>apn</key>
+                <string>internet.weex.mx</string>
+                <key>username</key>
+                <string>weex</string>
+                <key>password</key>
+                <string></string>
+								
+								<key>type-mask</key>
+								<integer>7</integer>
+
+							</dict>
 						</array>
 					</dict>
 					<key>DefaultsDomainName</key>
