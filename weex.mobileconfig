@@ -18,7 +18,7 @@
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
-                <string>weex</string>
+                <string></string>
                 <key>password</key>
                 <string></string>
 								
@@ -30,7 +30,7 @@
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
-                <string>weex</string>
+                <string></string>
                 <key>password</key>
                 <string></string>
 								
@@ -42,7 +42,19 @@
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
-                <string>weex</string>
+                <string></string>
+                <key>password</key>
+                <string></string>
+								
+								<key>type-mask</key>
+								<integer>49</integer>
+
+							</dict>
+<dict>
+                <key>apn</key>
+                <string>internet.weex.mx</string>
+                <key>username</key>
+                <string></string>
                 <key>password</key>
                 <string></string>
 								
@@ -54,7 +66,7 @@
                 <key>apn</key>
                 <string>internet.weex.mx</string>
                 <key>username</key>
-                <string>weex</string>
+                <string></string>
                 <key>password</key>
                 <string></string>
 								
@@ -65,7 +77,7 @@
 						</array>
 					</dict>
 					<key>DefaultsDomainName</key>
-					<string>com.apple.managedCarrier</string>
+					<string>com.apple.cellular</string>
 				</dict>
 			</array>
 			<key>PayloadDescription</key>
@@ -77,9 +89,9 @@
 			<key>PayloadOrganization</key>
 			<string>http://weex.mx</string>
 			<key>PayloadType</key>
-			<string>com.apple.apn.managed</string>
+			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
-			<string>6F1D509D-A494-444D-9098-F233891019E3</string>
+			<string>6B08253E-D5BB-4FC4-A5CD-825FB965B5AA</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -95,7 +107,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>A0670934-C558-42E1-9E80-9B8E079E9AE3</string>
+	<string>560EB0FF-BE89-46C7-8DC9-6CA77E1A4453</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
