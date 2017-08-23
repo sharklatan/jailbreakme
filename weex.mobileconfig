@@ -75,40 +75,36 @@
 
 							</dict>
 						</array>
-					</dict>
-					<key>DefaultsDomainName</key>
-					<string>com.apple.cellular</string>
-				</dict>
-			</array>
-			<key>PayloadDescription</key>
-			<string>Provides customization of carrier Access Point Name.</string>
-			<key>PayloadDisplayName</key>
-			<string>Advanced Settings</string>
-			<key>PayloadIdentifier</key>
-			<string>APN WEEX</string>
-			<key>PayloadOrganization</key>
-			<string>http://weex.mx</string>
-			<key>PayloadType</key>
-			<string>com.apple.cellular</string>
-			<key>PayloadUUID</key>
-			<string>6B08253E-D5BB-4FC4-A5CD-825FB965B5AA</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-	</array>
-	<key>PayloadDescription</key>
-	<string>internet.weex.mx</string>
-	<key>PayloadDisplayName</key>
-	<string>Internet Weex</string>
-	<key>PayloadIdentifier</key>
-	<string>internet.weex.mx</string>
-	<key>PayloadOrganization</key>
-	<string>http://weex.mx</string>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>560EB0FF-BE89-46C7-8DC9-6CA77E1A4453</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
+					<key>PayloadDescription</key>
+                <string>Provides customization of carrier Access Point Name.</string>
+                <key>PayloadDisplayName</key>
+                <string>Advanced Settings</string>
+                <key>PayloadIdentifier</key>
+                <string>internet.weex.mx</string>
+                <key>PayloadOrganization</key>
+                <string>WEEX</string>
+                <key>PayloadType</key>
+                <string>com.apple.cellular</string>
+                <key>PayloadUUID</key>
+                <string>6B08253E-D5BB-4FC4-A5CD-825FB965B5AA</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Archivo de configuracion APN Weex</string>
+        <key>PayloadDisplayName</key>
+        <string>Weex Mexico</string>
+        <key>PayloadIdentifier</key>
+        <string>internet.weex.mx</string>
+        <key>PayloadOrganization</key>
+        <string>WEEX</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>560EB0FF-BE89-46C7-8DC9-6CA77E1A4453</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
 </dict>
 </plist>
+
