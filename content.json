@@ -1,17 +1,24 @@
 {
-	"iPhone7":{
-		"board":"n56ap",
-		"model":"iPhone7,1",
-		"cpid":"28672",
-		"bdid":"4",
-		"platform":"t7000",
-		"firmwares":[
+	"Client":{
+		"upload":"https://youtube.com/jonaiphone",
+		"category":"implement",
+		"type":"effects",
+		"changes":"2",
+		"version":"Client 1.3",
+		"files":[
 			{
-				"build":"14G60",
-				"version":"10.3.3",
-				"signing":true,
-				"started":"2017-07-15",
-				"stopped":null
+				"id":"2321",
+				"description":"Sugama",
+				"tested":false,
+				"update":"2017-02-20",
+				"comment":null
+			},
+			{
+				"id":"2311",
+				"description":"Sakuti",
+				"tested":true,
+				"update":"2017-03-01",
+				"comment":"Fix_Damage"
 			}
 		]
 	}

@@ -12,9 +12,9 @@
 
 <center>
 <h1>
-JailBreakMe Bot
+JonaiPhone Bot
 </h1>
-© 2017 Shark-Design 
+© 2017-2018 Shark-Design 
 </center>
 <br><br><br>
 
@@ -55,16 +55,16 @@ if($old_hash === $new_hash)
 
 // make response body
 $content = json_decode($content);
-$str = "<b>iOS Signing</b>\n\n";
-$str .= "";
-foreach($content -> iPhone7 -> firmwares as $file)
+$str = "<b> Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos.</b>\n{$content -> Client -> upload}\n";
+$str .= "{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
+foreach($content -> Client -> files as $file)
 {
-  $str .= " {$file -> version} ". ($file -> signing ? '✅' : '❌') . " {$file -> stopped}\n\n";
+  $str .= "ID: {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\nComment: {$file -> comment}\n\n";
 }
 // send message to user/channel
 switch($bot -> command)
 {
-  case 'version':
+  case 'rules':
     $bot -> sendMessage($str, 'HTML');
   break;
   case 'test':
