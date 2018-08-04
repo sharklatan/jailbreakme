@@ -67,6 +67,14 @@ switch($bot -> command)
   case 'rules':
 //    $bot -> sendMessage("response 1");
     $bot -> sendMessage($str, 'HTML');
+    // make response body
+$content = json_decode($content);
+$str = "<b> Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos.</b>\n{$content -> Client -> upload}\n";
+$str .= "\n JONAIPHONE COMUNIDAD  📲\n{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
+foreach($content -> Client -> files as $file)
+{
+  $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\n {$file -> comment}\n\n";
+}
   break;
   case 'test':
     $bot -> sendMessage("response 2");
@@ -74,7 +82,7 @@ switch($bot -> command)
   
 }
 
-//$bot -> sendMessage($str, 'HTML');
+$bot -> sendMessage($str, 'HTML');
 // write new hash
 file_put_contents('json_hash', $new_hash)
 ?>
