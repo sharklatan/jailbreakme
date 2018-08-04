@@ -1,5 +1,5 @@
 <?php
-function intervalcheck($f, $interval = 1)
+function intervalcheck($f, $interval = 0)
 {
 	$root = 'preferences/intervalcheck/';
 	mkpath($root);
@@ -242,9 +242,9 @@ function smartcaps($string)
 	$string = mb_strtolower($string);
   $string[0] = mb_strtoupper($string[0]);
   return $string;
-}
+}//changue $period = 6000 to $period = 1000
 
-function cache_broker($path ,$file, $data = null, $period = 6000, $as_array = false)
+function cache_broker($path ,$file, $data = null, $period = 1000, $as_array = false)
 {
   $time = time();
   $path = isset($path) ? $path : "botdata/cache/assorted/";
