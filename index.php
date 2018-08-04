@@ -64,7 +64,7 @@ foreach($content -> Client -> files as $file)
 // send message to user/channel
 switch($bot -> command)
 {
-  case '/rules':
+  case 'rules':
     $bot -> sendMessage($str, 'HTML');
   break;
   case 'test':
