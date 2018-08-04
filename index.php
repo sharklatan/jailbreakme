@@ -32,7 +32,7 @@ ini_set('error_log', ROOT.'error_log');
 
 require('bot.php');
 
-$bot = new bot('674165945:AAGSB3fpt1bN2kho_rHHUMORUpeIg0eKzD0');
+$bot = new bot('661444225:AAHpvk2dP0sntGT05Cdkpc8x5O4XPjjvTuA');
 $bot -> uploadfile = true;
 $bot -> chatid = 15310317;
 //$bot -> chatid = -1001092935707;
@@ -62,6 +62,7 @@ foreach($content -> Client -> files as $file)
   $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\n {$file -> comment}\n\n";
 }
 // send message to user/channel
+$bot -> sendMessage($str, 'HTML');
 switch($bot -> command)
 {
   case 'rules':
@@ -82,7 +83,7 @@ foreach($content -> Client -> files as $file)
   
 }
 
-$bot -> sendMessage($str, 'HTML');
+
 // write new hash
 file_put_contents('json_hash', $new_hash)
 ?>
