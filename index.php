@@ -65,7 +65,7 @@ foreach($content -> Client -> files as $file)
 switch($bot -> command)
 {
   case 'rules':
-    $bot -> sendMessage($str, 'HTML');
+    $bot -> sendMessage("response 1");
   break;
   case 'test':
     $bot -> sendMessage("response 2");
