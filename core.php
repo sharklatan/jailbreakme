@@ -1,5 +1,5 @@
 <?php
-function intervalcheck($f, $interval = 0)
+function intervalcheck($f, $interval = 1)
 {
 	$root = 'preferences/intervalcheck/';
 	mkpath($root);
