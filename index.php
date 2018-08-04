@@ -32,7 +32,7 @@ ini_set('error_log', ROOT.'error_log');
 
 require('bot.php');
 
-$bot = new bot('373936379:AAGbYbnKHWzVLLoTOtBdkphB_a6GeROHHjE');
+$bot = new bot('674165945:AAGSB3fpt1bN2kho_rHHUMORUpeIg0eKzD0');
 $bot -> uploadfile = true;
 $bot -> chatid = 15310317;
 //$bot -> chatid = -1001092935707;
