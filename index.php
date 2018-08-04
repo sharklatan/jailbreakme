@@ -65,7 +65,8 @@ foreach($content -> Client -> files as $file)
 switch($bot -> command)
 {
   case 'rules':
-    $bot -> sendMessage("response 1");
+//    $bot -> sendMessage("response 1");
+    $bot -> sendMessage($str, 'HTML');
   break;
   case 'test':
     $bot -> sendMessage("response 2");
@@ -73,7 +74,7 @@ switch($bot -> command)
   
 }
 
-$bot -> sendMessage($str, 'HTML');
+//$bot -> sendMessage($str, 'HTML');
 // write new hash
 file_put_contents('json_hash', $new_hash)
 ?>
