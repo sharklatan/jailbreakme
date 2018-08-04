@@ -1,24 +1,80 @@
 {
 	"Client":{
 		"upload":"https://youtube.com/jonaiphone",
-		"category":"Reglas",
-		"type":" ",
-		"changes":" ",
+		"category":"•",
+		"type":"REGLAS DEL GRUPO",
+		"changes":"•",
 		"version":"Client 1.3",
 		"files":[
 			{
-				"id":"2321",
-				"description":"Sugama",
+				"id":"1.-",
+				"description":"NO PORNOGRAFÍA.",
 				"tested":false,
-				"update":"2017-02-20",
+				"update":null,
 				"comment":null
 			},
 			{
-				"id":"2311",
-				"description":"Sakuti",
+				"id":"2.-",
+				"description":"NO SPAM.",
+				"tested":false,
+				"update":null,
+				"comment":null
+			},
+			{
+				"id":"3.-",
+				"description":"RESPETO A LOS DEMÁS INTEGRANTES.",
+				"tested":false,
+				"update":null,
+				"comment":null
+			},
+			{
+				"id":"4.-",
+				"description":"SÍ MEMES.",
 				"tested":true,
-				"update":"2017-03-01",
-				"comment":"Fix_Damage"
+				"update":null,
+				"comment":"(NO OFENSIVOS O DE TECNOLOGÍA)."
+			},
+			{
+				"id":"5.-",
+				"description":"NO PROMOCIONAR OTROS GRUPOS.",
+				"tested":false,
+				"update":null,
+				"comment":null
+			},
+			{
+				"id":"6.-",
+				"description":"PROHIBIDO PASAR CUENTAS.",
+				"tested":false,
+				"update":null,
+				"comment":"(NETFLIX, SPOTIFY, ETC)."
+			},
+			{
+				"id":"7.-",
+				"description":"ESTAR EN UN SOLO GRUPO DE JONAIPHONE.",
+				"tested":false,
+				"update":null,
+				"comment":"Esto aplica solo WhatsApp."
+			},
+			{
+				"id":"8.-",
+				"description":"HABLAR ESPAÑOL.",
+				"tested":true,
+				"update":null,
+				"comment":null
+			},
+			{
+				"id":"9.-",
+				"description":"AYUDAR Y COMPARTIR SUS CONOCIMIENTOS DENTRO DEL GRUPO.",
+				"tested":true,
+				"update":null,
+				"comment":"(LA INFORMACIÓN PUEDE SER VALIOSA PARA OTROS USUARIOS)."
+			},
+			{
+				"id":"10.-",
+				"description":"PROHIBIDO ELIMINAR MENSAJES.",
+				"tested":false,
+				"update":null,
+				"comment":"(1RA VEZ ADVERTENCIA ~ 2DA BAN)."
 			}
 		]
 	}
