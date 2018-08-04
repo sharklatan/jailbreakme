@@ -24,7 +24,7 @@ JonaiPhone Bot
 ini_set('date.timezone', 'Asia/Calcutta');
 ini_set('display_errors', 0);
 error_reporting(E_ALL);
-ini_set('log_errors', 1);
+ini_set('log_errors', 0);
 define('ROOT', __DIR__.DIRECTORY_SEPARATOR);
 $ROOT = __DIR__;
 ini_set('error_log', ROOT.'error_log');
