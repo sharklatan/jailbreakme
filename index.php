@@ -59,7 +59,7 @@ $str = "<b> Suscribe te a mi canal para que no te pierdas ningunos de mis vídeo
 $str .= "\n JONAIPHONE COMUNIDAD  📲\n{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
 foreach($content -> Client -> files as $file)
 {
-  $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\nCommentario: {$file -> comment}\n\n";
+  $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\n {$file -> comment}\n\n";
 }
 // send message to user/channel
 switch($bot -> command)
