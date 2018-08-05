@@ -34,9 +34,11 @@ require('bot.php');
 
 $bot = new bot('661444225:AAHpvk2dP0sntGT05Cdkpc8x5O4XPjjvTuA');
 $bot -> uploadfile = true;
-$bot -> chatid = 15310317;
+//my id
+//$bot -> chatid = 15310317;
+// group id
 //$bot -> chatid = -1001092935707;
-
+$bot -> chatid = -1001103910406;
 
 // load json content
 $content = file_get_contents('content.json');
