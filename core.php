@@ -244,7 +244,7 @@ function smartcaps($string)
   return $string;
 }//changue $period = 6000 to $period = 1000
 
-function cache_broker($path ,$file, $data = null, $period = 1000, $as_array = false)
+function cache_broker($path ,$file, $data = null, $period = 6000, $as_array = false)
 {
   $time = time();
   $path = isset($path) ? $path : "botdata/cache/assorted/";
