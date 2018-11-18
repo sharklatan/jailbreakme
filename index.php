@@ -44,7 +44,7 @@ $bot -> chatid = 15310317;
 
 
 // load json content
-$content = file_get_contents('content.json');
+$content = file_get_contents('test.json');
 $new_hash = sha1($content.json);
 
 
