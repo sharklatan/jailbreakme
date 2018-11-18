@@ -1,81 +1,46 @@
 {
-	"Client":{
-		"upload":"https://youtube.com/jonaiphone",
-		"category":"•",
-		"type":"REGLAS DEL GRUPO",
-		"changes":"•",
-		"version":"Client 1.3",
-		"files":[
-			{
-				"id":"1.-",
-				"description":"NO PORNOGRAFÍA.",
-				"tested":false,
-				"update":null,
-				"comment":null
-			},
-			{
-				"id":"2.-",
-				"description":"NO SPAM.",
-				"tested":false,
-				"update":null,
-				"comment":null
-			},
-			{
-				"id":"3.-",
-				"description":"RESPETO A LOS DEMÁS INTEGRANTES.",
-				"tested":false,
-				"update":null,
-				"comment":null
-			},
-			{
-				"id":"4.-",
-				"description":"SÍ MEMES.",
-				"tested":true,
-				"update":null,
-				"comment":"(NO OFENSIVOS O DE TECNOLOGÍA)."
-			},
-			{
-				"id":"5.-",
-				"description":"NO PROMOCIONAR OTROS GRUPOS.",
-				"tested":false,
-				"update":null,
-				"comment":null
-			},
-			{
-				"id":"6.-",
-				"description":"PROHIBIDO PASAR CUENTAS.",
-				"tested":false,
-				"update":null,
-				"comment":"(NETFLIX, SPOTIFY, ETC)."
-			},
-			{
-				"id":"7.-",
-				"description":"ESTAR EN UN SOLO GRUPO DE JONAIPHONE.",
-				"tested":false,
-				"update":null,
-				"comment":"Esto aplica solo WhatsApp."
-			},
-			{
-				"id":"8.-",
-				"description":"HABLAR ESPAÑOL.",
-				"tested":true,
-				"update":null,
-				"comment":null
-			},
-			{
-				"id":"9.-",
-				"description":"AYUDAR Y COMPARTIR SUS CONOCIMIENTOS DENTRO DEL GRUPO.",
-				"tested":true,
-				"update":null,
-				"comment":"(LA INFORMACIÓN PUEDE SER VALIOSA PARA OTROS USUARIOS)."
-			},
-			{
-				"id":"10.-",
-				"description":"PROHIBIDO ELIMINAR MENSAJES.",
-				"tested":false,
-				"update":null,
-				"comment":"(1RA VEZ ADVERTENCIA ~ 2DA BAN)."
-			}
-		]
-	}
+  "name": "iPhone XS Max",
+  "identifier": "iPhone11,6",
+  "boardconfig": "d331pap",
+  "platform": "",
+  "cpid": 32800,
+  "bdid": 26,
+  "firmwares": [
+    {
+      "identifier": "iPhone11,6",
+      "version": "12.1",
+      "buildid": "16B92",
+      "sha1sum": "d5eaad073e2b34a9881399bd7f4b941cf433f907",
+      "md5sum": "8d709d415be565c802264cad897f0ef5",
+      "filesize": 3575117965,
+      "url": "http://updates-http.cdn-apple.com/2018FallFCS/fullrestores/091-90889/963D8D76-D4BE-11E8-B98A-E7921E792DF5/iPhone11,4,iPhone11,6_12.1_16B92_Restore.ipsw",
+      "releasedate": "2018-10-30T17:23:26Z",
+      "uploaddate": "2018-10-20T23:39:14Z",
+      "signed": true
+    },
+    {
+      "identifier": "iPhone11,6",
+      "version": "12.0.1",
+      "buildid": "16A405",
+      "sha1sum": "c5f8e20920d414416383a41bc4a2c1d6e567d914",
+      "md5sum": "4b3add30e4fa778c998ac67bb68fa60c",
+      "filesize": 3565420422,
+      "url": "http://updates-http.cdn-apple.com/2018FallFCS/fullrestores/041-11416/CCEBD232-C7FE-11E8-88A9-9764A21C4389/iPhone11,4,iPhone11,6_12.0.1_16A405_Restore.ipsw",
+      "releasedate": "2018-10-08T16:57:58Z",
+      "uploaddate": "2018-10-04T17:58:33Z",
+      "signed": true
+    },
+    {
+      "identifier": "iPhone11,6",
+      "version": "12.0",
+      "buildid": "16A366",
+      "sha1sum": "5f20cdbae4357b224486944c1c6678a85cf1a096",
+      "md5sum": "d5c54f59c1756893c0268eaec68aa3a7",
+      "filesize": 3565583919,
+      "url": "http://updates-http.cdn-apple.com/2018FallFCS/fullrestores/091-65188/11BE19F6-AC8E-11E8-A312-F5CEDE149863/iPhone11,4,iPhone11,6_12.0_16A366_Restore.ipsw",
+      "releasedate": "2018-09-17T17:08:11Z",
+      "uploaddate": "2018-08-30T20:01:00Z",
+      "signed": false
+    }
+  ]
 }
