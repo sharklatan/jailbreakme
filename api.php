@@ -1,129 +1,51 @@
+<html>
+<head>
+<title>IPAS Links</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
 
 
-<br><br><br><br><br>
-<b>DECODE</b><br><br><br>
+<script>
 
 
-<?php
-
-$json = file_get_contents('file.txt');
-
-var_dump(json_decode($json));
+var url = "https://private-anon-d23ce3189e-ipswdownloads.apiary-proxy.com/v4/device/iPhone11%2C6?type=ipsw";
 
 
-
-?>
-<br><br><br>
+var xmlHttp = new XMLHttpRequest();
 
 
-<?php
-
-$json = file_get_contents('file.txt');
-
-
-var_dump(json_decode($json, true));
+xmlHttp.onreadystatechange = function() {
+  if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
 
 
-?>
+document.getElementById('ico').innerHTML = '<img src="' + JSON.parse(xmlHttp.responseText).data.TBAppIcon + '"><p>';
 
+document.getElementById('link').innerHTML = '<a href="' + JSON.parse(xmlHttp.responseText).data.TBAppLink + '">Test install</a> <p>';
 
-<br><br><br><br><br>
-<b>ENCODE</b><br><br><br>
-
-
-<?php
-
-
-
-?>
-
-
-<br><br><br><br><br>
-<b>FIX Array</b><br><br><br>
-
-<?php
-
-
-
-function fixArrayKey(&$arr)
-{
-    $arr = array_combine(
-        array_map(
-            function ($str) {
-                return str_replace(" ", "_", $str);
-            },
-            array_keys($arr)
-        ),
-        array_values($arr)
-    );
-
-    foreach ($arr as $key => $val) {
-        if (is_array($val)) {
-            fixArrayKey($arr[$key]);
-        }
-    }
-}
-
-$content = json_decode($data);
-$data = file_get_contents('file.txt');
-
-print_r($data);
-fixArrayKey($data);
-print_r($data);
-
-json_last_error()
-
-
-?>
-
-<br><br><br><br><br>
-<b>STRUCTURE</b><br><br><br>
-
-<?php
-
-
-$headers = array('http'=>array('method'=>'GET','header'=>'Content: type=application/json \r\n'.'$agent \r\n'.'$hash'));
-
-$context=stream_context_create($headers);
-
-$str = file_get_contents("file.txt",FILE_USE_INCLUDE_PATH,$context);
-
-$str1=utf8_encode($str);
-
-$str1=json_decode($str1,true);
-
-
-
-foreach($str1 as $key=>$value)
-{
-
-    echo "key is: $key.\n";
-
-    echo "values are: \t";
-        foreach ($value as $k) {
-
-        echo " $k. \t";
-        # code...
-    }
-        echo "<br></br>";
-        echo "\n";
+    document.getElementById('ipa').innerHTML = JSON.parse(xmlHttp.responseText).version + "<p>";
 
 }
 
+xmlHttp.open("GET", url, true);
+
+xmlHttp.send();
 
 
-?>
 
-<br><br><br><br><br>
+</script>
 
-<?php
-
-$json = file_get_contents('file.txt');
-//$json = '{"foo-bar": 12345}';
-
-$obj = json_decode($json);
-print $obj->{'model'}; // 12345
-
-?>
+</b>ipa link: <p>
+<div id="ico"></div>
+<div id="link"></div>
+<div id="ipa"></div>
 
 
+
+
+</body>
+</html>

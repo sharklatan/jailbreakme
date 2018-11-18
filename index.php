@@ -62,7 +62,7 @@ if($old_hash === $new_hash)
 $content = json_decode($content);
 
 $str = "<b> Hola a todos ^_^ soy JonaiPhone Bot.\n</b>\n<b>Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos.\n</b>\n{$content -> firmwares -> version}\n";
-$str .= "\n JONAIPHONE COMUNIDAD  📲\n\n{$content -> firmwares ->  version} {$content -> firmwares -> buildid} {$content -> firmwares -> changes}\n\n";
+$str .= "\n JONAIPHONE COMUNIDAD  📲\n\n{$content -> firmwares ->  version} {$content -> firmwares -> version} {$content -> firmwares -> version}\n\n";
 foreach($content -> firmwares -> files as $file)
 {
   $str .= " {$file -> id} {$file -> version} ". ($file -> signed ? '✅' : '❌') . " {$file -> buildid}\n {$file -> version}\n\n";
@@ -76,11 +76,11 @@ switch($bot -> command)
     $bot -> sendMessage($str, 'HTML');
     // make response body
 $content = json_decode($content);
-$str = "<b> Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos.</b>\n{$content -> Client -> upload}\n";
-$str .= "\n JONAIPHONE COMUNIDAD  📲\n{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
-foreach($content -> Client -> files as $file)
+$str = "<b> Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos.</b>\n{$content -> firmwares -> version}\n";
+$str .= "\n JONAIPHONE COMUNIDAD  📲\n{$content -> firmwares -> version} {$content -> firmwares -> version} {$content -> firmwares -> version}\n\n";
+foreach($content -> firmwares -> firmwares as $file)
 {
-  $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\n {$file -> comment}\n\n";
+  $str .= " {$file -> firmwares} {$file -> firmwares} ". ($file -> signed ? '✅' : '❌') . " {$file -> firmwares}\n {$file -> veraion}\n\n";
 }
   break;
   case 'test':
