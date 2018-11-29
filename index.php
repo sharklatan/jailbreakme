@@ -61,8 +61,8 @@ if($old_hash === $new_hash)
 // make response body
 $content = json_decode($content);
 
-$str = "<b> Hola a todos ^_^ soy JonaiPhone Bot.\n</b>\n<b>  JONAIPHONE COMUNIDAD  📲 \n</b>\n{$content -> Client -> upload}\n";
-$str .= "\n Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos\n\n{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
+$str = "<b> Hola a todos 😉 soy JonaiPhone Bot.\n</b>\n<b>  JONAIPHONE COMUNIDAD  📲 \n</b>\n Les recuerdo las reglas amigos por favor respétenlas y eviten ser expulsados del grupo.\n{$content -> Client -> upload}\n";
+$str .= "\n\n{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
 foreach($content -> Client -> files as $file)
 {
   $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\n {$file -> comment}\n\n";
