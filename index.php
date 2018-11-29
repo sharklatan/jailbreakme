@@ -76,7 +76,7 @@ switch($bot -> command)
     $bot -> sendMessage($str, 'HTML');
     // make response body
 $content = json_decode($content);
-$str = "<b> Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos.</b>\n{$content -> Client -> upload}\n";
+$str = "<b> Suscribe te a mi canal para que no te pierdas ningunos de mis vídeos.</b> <img src="https://sharklatan.com/rules.jpg"> \n{$content -> Client -> upload}\n";
 $str .= "\n JONAIPHONE COMUNIDAD  📲\n{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
 foreach($content -> Client -> files as $file)
 {
