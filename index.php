@@ -65,7 +65,7 @@ $str = "<b> Hola a todos 😉 soy JonaiPhone Bot.\n</b>\n<b>  JONAIPHONE COMU
 $str .= "\n\n{$content -> Client -> category} {$content -> Client -> type} {$content -> Client -> changes}\n\n";
 foreach($content -> Client -> files as $file)
 {
-  $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '❌') . " {$file -> update}\n {$file -> comment}\n\n";
+  $str .= " {$file -> id} {$file -> description} ". ($file -> tested ? '✅' : '👋') . " {$file -> update}\n {$file -> comment}\n\n";
 }
 // send message to user/channel
 $bot -> sendMessage($str, 'HTML');
